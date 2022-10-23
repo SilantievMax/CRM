@@ -12,6 +12,7 @@ app.use(passport.initialize());
 middleware(passport);
 
 app.use(morgan("dev")); // Удобное логирование запросов
+app.use("/uploads", express.static("uploads"));
 app.use(bodyParser.urlencoded({ extended: true })); //защита от символов в url адресе
 app.use(bodyParser.json()); // в место app.use(express.json());
 app.use(cors());
