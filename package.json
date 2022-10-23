@@ -8,7 +8,7 @@
     "start": "nodemon index"
   },
   "keywords": [],
-  "author": "",
+  "author": "SilantievMax",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
